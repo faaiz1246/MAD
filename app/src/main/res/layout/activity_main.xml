@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Info"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B22222"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How Would You Like to be Addressed"
+        android:textAlignment="center"
+        android:textSize="20dp" android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Title"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Mr.   Mrs.   Ms.   Other"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Gender"/>
+
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Country"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I consent, to the processing of my personal data in accordance with the VistaJet privacy policy, and to the Vista Jet Direct Mobile Program terms and Conditions of Use"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Next"
+        android:textColor="#000000"
+        android:background="#B22222"/>
+</LinearLayout>
